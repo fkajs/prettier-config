@@ -1,6 +1,6 @@
 {
   "name": "@fka/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The prettier configuration of the FKA team.",
   "main": "index.json",
   "keywords": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fkajs/infra.git"
+    "url": "https://github.com/fkajs/prettier-config.git"
   },
-  "homepage": "https://github.com/fkajs/infra"
+  "homepage": "https://github.com/fkajs/prettier-config"
 }
