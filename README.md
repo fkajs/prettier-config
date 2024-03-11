@@ -1,6 +1,6 @@
 # @fka/prettier-config
 
-> The prettier configuration of the FKA team
+> FKA team's prettier configuration
 
 ## Usage
 
@@ -18,11 +18,22 @@ pnpm install @fka/prettier-config -D
 yarn add @fka/prettier-config -D
 ```
 
-**Edit package.json:**
+**Edit `package.json`:**
 
 ```json
 {
   // ...
   "prettier": "@fka/prettier-config"
 }
+```
+
+**Extend `@fka/prettier-config`**
+
+```js
+// Edit .prettierrc.js
+module.exports = {
+  ...require('@fka/prettier-config'),
+  // Your config
+  semi: false,
+};
 ```
